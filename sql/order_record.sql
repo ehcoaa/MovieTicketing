@@ -1,0 +1,15 @@
+INSERT INTO `order_record` VALUES (2, 1, '坏蛋联盟', 'http://p3.itc.cn/q_70/images03/20211216/399f4e08c0b345bfbe834bde90b03322.jpeg', 26.90, 1, '2022-06-08', '15:30:00', '1号厅');
+INSERT INTO `order_record` VALUES (2, 2, '边缘行者', 'http://img.hb.aicdn.com/57df1a87279a20d211af40304f03667ed48c0fdf2a944d-B3t0sT', 34.50, 1, '2022-06-29', '13:10:00', '2号厅');
+INSERT INTO `order_record` VALUES (2, 0, '红高粱', 'http://img.hb.aicdn.com/a2302e1c7a61b9c5a30b2e776e7fcb3b25bdce783a26e-mp4wXG', 30.00, 2, '2022-05-05', '19:30:00', '3号厅');
+INSERT INTO `order_record` VALUES (2, 0, '红高粱', 'http://img.hb.aicdn.com/3436c1b331e6da359d8cb3a88a08d263ade80d4d8bd9d-9h15Pn', 10.00, 1, '2022-06-11', '12:30:00', '2号厅');
+INSERT INTO `order_record` VALUES (1, 12, '功夫', 'http://www.sfs-cn.com/images/thumbnailimg/month_1501/201501120217421060.jpg', 10.00, 1, '2022-06-12', '16:30:00', '2');
+INSERT INTO `order_record` VALUES (1, 10, '无间道1', 'http://img.hb.aicdn.com/3300506f8c537631ca9e934db40e86ee71eb48ca1550e-8x53qA', 10.00, 1, '2022-06-13', '12:30:00', '2');
+INSERT INTO `order_record` VALUES (1, 11, '霸王别姬', 'http://img.hb.aicdn.com/3ba7d11f104549efa4b0c4454261057517d5b506b72c-3ojws2', 10.00, 1, '2022-06-13', '09:50:00', '1');
+INSERT INTO `order_record` VALUES (1, 6, '神奇动物邓布利多之谜', 'http://182.92.102.155:8080/movie/15.jpg', 10.00, 1, '2022-06-13', '09:50:00', '2');
+INSERT INTO `order_record` VALUES (1, 15, '鬼子来了', 'http://photocdn.sohu.com/20150205/mp721729_1423125836625_3.jpeg', 10.00, 1, '2022-06-13', '09:50:00', '1');
+INSERT INTO `order_record` VALUES (1, 0, '红高粱', 'http://img.hb.aicdn.com/3436c1b331e6da359d8cb3a88a08d263ade80d4d8bd9d-9h15Pn', 10.00, 1, '2022-06-14', '12:30:00', '2');
+INSERT INTO `order_record` VALUES (2, 21, '爱情神话', 'http://img.hb.aicdn.com/96a2748a61fd5e8021423f4231e419728594b9c112856-3hboib', 10.00, 1, '2022-06-13', '09:50:00', '1');
+INSERT INTO `order_record` VALUES (2, 14, '九品芝麻官', 'http://182.92.102.155:8080/movie/2.jpeg', 10.00, 1, '2022-06-14', '12:30:00', '2');
+INSERT INTO `order_record` VALUES (2, 6, '神奇动物邓布利多之谜', 'http://182.92.102.155:8080/movie/15.jpg', 10.00, 1, '2022-06-13', '09:50:00', '2');
+INSERT INTO `order_record` VALUES (2, 12, '功夫', 'http://www.sfs-cn.com/images/thumbnailimg/month_1501/201501120217421060.jpg', 10.00, 1, '2022-06-13', '12:30:00', '2');
+INSERT INTO `order_record` VALUES (2, 11, '霸王别姬', 'http://img.hb.aicdn.com/3ba7d11f104549efa4b0c4454261057517d5b506b72c-3ojws2', 10.00, 1, '2022-06-13', '09:50:00', '1');
