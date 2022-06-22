@@ -1,0 +1,190 @@
+body{
+    background-image:url("../images/light.png");
+    background-repeat: repeat-x;
+}
+h1{
+    color: ghostwhite;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 35px;
+}
+h2{
+    color: ghostwhite;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 20px;
+}
+#button_back{
+    display: inline-block;
+    width: 90px;
+    height: 120px;
+    float: left;
+    margin: 10px 5px auto;
+}
+#button_back a{
+    width: 90px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#button_back a:hover{
+    background-color: coral;
+    color: white;
+}
+#to_person_booking{
+    display: block;
+    width: 90px;
+    height: 40px;
+    float: right;
+    margin: 10px 5px auto;
+}
+#to_person_booking a{
+    width: 90px;
+    height: 40px;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#to_person_booking a:hover{
+    background-color: coral;
+    color: white;
+}
+#avator{
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightblue;
+    border-radius: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+.img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.main_content{
+    display: block;
+    width: 900px;
+    height: 700px;
+    margin: 20px auto;
+    background-color: ghostwhite;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.main_content table{
+    text-align: center;
+    margin: 20px auto auto 250px;
+    padding-top: 20px;
+    line-height: 55px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.main_content table input{
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+.btn_update{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+}
+#update_button{
+    width: 120px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-decoration: none;
+    color: gray;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#update_button:hover{
+    background-color: coral;
+    color: lightblue;
+}
+.btn_update a{
+    width: 120px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn_update a:hover{
+    background-color: coral;
+    color: lightblue;
+}
+dialog{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: lightcoral;
+    font-weight: bolder;
+}
+#dialog_table{
+    margin: 5px auto;
+    text-align: center;
+    line-height: 55px;
+    font-weight: bolder;
+}
+dialog:not([open]){
+    display: none;
+}
+#update_submit{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    color: coral;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#update_submit:hover{
+    background-color: coral;
+    color: white;
+}
+#update_cancel{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    color: coral;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#update_cancel:hover{
+    background-color: coral;
+    color: white;
+}
+#update_reset{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    color: coral;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#update_reset:hover{
+    background-color: coral;
+    color: white;
+}

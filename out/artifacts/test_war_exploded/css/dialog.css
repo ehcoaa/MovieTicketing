@@ -1,0 +1,52 @@
+dialog{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: lightcyan;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+#dialog_table{
+    margin: 5px auto;
+    text-align: center;
+    line-height: 55px;
+    font-weight: bolder;
+}
+dialog:not([open]){
+    display: none;
+}
+#update_submit{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    color: cyan;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: auto 0;
+}
+#update_submit:hover{
+    background-color: cyan;
+    color: white;
+}
+#update_cancel{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    color: cyan;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: auto 0;
+}
+#update_cancel:hover{
+    background-color: cyan;
+    color: white;
+}
+.textarea {
+    border: 0;
+    resize: none;
+    outline: 0;
+    z-index: 3;
+    color: #333;
+    overflow: hidden;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+.top-bar{
+    height: auto;
+    width: 100%;
+    background-color: lightslategray;
+    position: fixed;
+    top: 0;
+    margin-bottom: 5px;
+}
+.top-bar ul{
+    width: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+}
+.top-bar li{
+    float: left;
+    margin-right: 5%;
+    position: relative;
+    overflow: hidden;
+}
+.top-bar li a{
+    width: 80px;
+    height: auto;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+.top-bar li a:hover{
+    background-color: white;
+    color: lightslategray;
+}
+.show-type-movies{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+h1{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}

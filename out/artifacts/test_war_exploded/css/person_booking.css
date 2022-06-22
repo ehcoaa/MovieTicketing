@@ -1,0 +1,146 @@
+body{
+    background-image:url("../images/light.png");
+    background-repeat: repeat-x;
+}
+h1{
+    color: ghostwhite;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 35px;
+}
+h2{
+    color: ghostwhite;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 20px;
+}
+#button_back{
+    display: block;
+    width: 90px;
+    height: 120px;
+    float: left;
+    margin: 10px 5px auto;
+}
+#button_back a{
+    width: 90px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#button_back a:hover{
+    background-color: coral;
+    color: white;
+}
+#to_person{
+    display: block;
+    width: 90px;
+    height: 40px;
+    float: right;
+    margin: 10px 5px auto;
+}
+#to_person a{
+    width: 90px;
+    height: 40px;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#to_person a:hover{
+    background-color: coral;
+    color: white;
+}
+.main_page{
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: 5px auto;
+    background-color: ghostwhite;
+    text-align: center;
+    opacity: 0.8;
+}
+.content{
+    position: relative;
+    width: 795px;
+    height: 200px;
+    margin: 0 auto;
+    /*padding-top: 10px;*/
+    background-color: ghostwhite;
+}
+.left{
+   width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 5px;
+    border: 2px solid white;
+    background-size: cover;
+}
+.right{
+    width: 450px;
+    height: 200px;
+    float: left;
+    border: 2px solid white;
+}
+.footer{
+    width: 800px;
+    height: 30px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 5px auto;
+}
+.left img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.right h2{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+}
+.right p{
+    text-align: left;
+    font-size: 20px;
+}
+.footer span{
+    float: left;
+    text-align: left;
+    font-size: 20px;
+}
+.footer p{
+    text-align: left;
+    font-size: 20px;
+}
+.delete_order{
+    width: 110px;
+    height: 30px;
+    margin-top: 3px;
+    float: right;
+    font-weight: bolder;
+}
+.delete_order a{
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 5px;
+}
+.delete_order a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
